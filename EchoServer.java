@@ -17,7 +17,6 @@ public class EchoServer {
 				while(true){
 					String msg = in.readLine();
 					if(msg == null){
-						System.out.println("I am in");
 						in.close();
 						out.flush();
 						out.close();
